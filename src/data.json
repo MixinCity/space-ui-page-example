@@ -1,0 +1,279 @@
+{
+    "struct": "space-ui/v0/themes/basic-page",
+    "user": {
+        "nickname": "HenryZ",
+        "url": "https://nodewee.github.io/",
+        "avatar": "https://avatars.githubusercontent.com/u/6458437?v=4"
+    },
+    "i18n": {
+        "supported": [
+            "en",
+            "zh"
+        ],
+        "component": {
+            "name": "csc-lang-switch/default/v1",
+            "props": {
+                "default": "",
+                "languages": {
+                    "en": "English",
+                    "zh": "中文"
+                }
+            }
+        }
+    },
+    "page": {
+        "style": {
+            "url": null,
+            "text": null,
+            "css_vars": {
+                "default": {},
+                "dark": {}
+            }
+        },
+        "meta": {
+            "lang": "en",
+            "page_url": "",
+            "favicon": "",
+            "image": null,
+            "author": "HenryZ",
+            "title": {
+                "en": "List page example",
+                "zh": "列表页示例"
+            },
+            "description": {
+                "en": "This is a list page example based on Space-UI.",
+                "zh": "这是一个基于 Space-UI 的列表页示例"
+            },
+            "keywords": {
+                "en": "list, example, single page, Space-UI",
+                "zh": "列表, 示例, 单页, Space-UI"
+            }
+        },
+        "analytics": {
+            "google_tag_id": ""
+        },
+        "header_components": [
+            {
+                "name": "csc-header/default/v1",
+                "style": {
+                    "url": null,
+                    "css_vars": {
+                        "default": {
+                            "height": "20rem",
+                            "bg-image": "url(https://cdn.pixabay.com/photo/2014/09/08/09/24/solar-system-439046_1280.jpg)",
+                            "bg-opacity": 0.65
+                        },
+                        "dark": {}
+                    }
+                },
+                "props": {}
+            }
+        ],
+        "main_components": [
+            {
+                "name": "csc-title/default/v1",
+                "props": {
+                    "title": {
+                        "en": "List page example",
+                        "zh": "列表页示例"
+                    },
+                    "author": {
+                        "en": "HenryZ",
+                        "zh": "芦苇Z"
+                    },
+                    "created": "2024-03-04",
+                    "updated": null
+                }
+            },
+            {
+                "name": "p",
+                "props": {
+                    "text": {
+                        "zh": "编辑 data.json 文件以自定义列表内容、组件和样式。",
+                        "en": "Edit the data.json file to customize the list content, components, and styles."
+                    }
+                }
+            },
+            {
+                "name": "h3",
+                "props": {
+                    "text": {
+                        "en": "Planets in the Solar System",
+                        "zh": "太阳系行星"
+                    }
+                }
+            },
+            {
+                "name": "csc-link-card-list/default/v1",
+                "style": {},
+                "props": {
+                    "items": [
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/580px-Mercury_in_true_color.jpg",
+                            "title": {
+                                "en": "Mercury",
+                                "zh": "水星"
+                            },
+                            "subtitle": {
+                                "en": "Mercury is the first planet from the Sun and the smallest in the Solar System.",
+                                "zh": "水星是太阳系中离太阳最近的行星，也是太阳系中最小的行星。"
+                            }
+                        },
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Venus",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/580px-Venus_2_Approach_Image.jpg",
+                            "title": {
+                                "en": "Venus",
+                                "zh": "金星"
+                            },
+                            "subtitle": {
+                                "en": "Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System.",
+                                "zh": "金星是太阳系中离太阳第二近的行星，是太阳系中密度最大的行星。"
+                            }
+                        },
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Earth",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/580px-The_Blue_Marble_%28remastered%29.jpg",
+                            "title": {
+                                "en": "Earth",
+                                "zh": "地球"
+                            },
+                            "subtitle": {
+                                "en": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+                                "zh": "地球是太阳系中离太阳第三近的行星，是目前已知唯一有生命的天体。"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "h3",
+                "props": {
+                    "text": {
+                        "en": "Card list exmaple",
+                        "zh": "卡片列表示例"
+                    }
+                }
+            },
+            {
+                "name": "csc-card-list/default/v1",
+                "style": {},
+                "props": {
+                    "items": [
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/580px-Mercury_in_true_color.jpg",
+                            "en": {
+                                "title": "Mercury",
+                                "summary": "Mercury is the first planet from the Sun and the smallest in the Solar System.",
+                                "tags": [
+                                    "First",
+                                    "Smallest"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+                                        "text": "Wikipedia"
+                                    }
+                                ]
+                            },
+                            "zh": {
+                                "title": "水星",
+                                "summary": "水星是太阳系中离太阳最近的行星，也是太阳系中最小的行星。",
+                                "tags": [
+                                    "第一",
+                                    "最小"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%98%9F",
+                                        "text": "维基百科"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Venus",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/580px-Venus_2_Approach_Image.jpg",
+                            "en": {
+                                "title": "Venus",
+                                "summary": "Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System.",
+                                "tags": [
+                                    "Second",
+                                    "Rocky"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Venus",
+                                        "text": "Wikipedia"
+                                    }
+                                ]
+                            },
+                            "zh": {
+                                "title": "金星",
+                                "summary": "金星是太阳系中离太阳第二近的行星，是太阳系中密度最大的行星。",
+                                "tags": [
+                                    "第二",
+                                    "岩石"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%98%9F",
+                                        "text": "维基百科"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "url": "https://en.wikipedia.org/wiki/Earth",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/580px-The_Blue_Marble_%28remastered%29.jpg",
+                            "en": {
+                                "title": "Earth",
+                                "summary": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+                                "tags": [
+                                    "Third",
+                                    "Life"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Earth",
+                                        "text": "Wikipedia"
+                                    }
+                                ]
+                            },
+                            "zh": {
+                                "title": "地球",
+                                "summary": "地球是太阳系中离太阳第三近的行星，是目前已知唯一有生命的天体。",
+                                "tags": [
+                                    "第三",
+                                    "生命"
+                                ],
+                                "referrals": [
+                                    {
+                                        "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%90%83",
+                                        "text": "维基百科"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "footer_components": [
+            {
+                "name": "csc-footer/simple/v1",
+                "style": {},
+                "props": {
+                    "links": [
+                        {
+                            "text": "SOURCE",
+                            "url": "https://github.com/mixincity/list-page-example"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
