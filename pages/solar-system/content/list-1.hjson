@@ -1,0 +1,44 @@
+{
+  "title": {
+    "en": "Planets in the Solar System",
+    "zh": "太阳系行星"
+  },
+  "items": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/580px-Mercury_in_true_color.jpg",
+      "title": {
+        "en": "Mercury",
+        "zh": "水星"
+      },
+      "subtitle": {
+        "en": "Mercury is the first planet from the Sun and the smallest in the Solar System.",
+        "zh": "水星是太阳系中离太阳最近的行星，也是太阳系中最小的行星。"
+      }
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Venus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Venus_-_December_23_2016.png",
+      "title": {
+        "en": "Venus",
+        "zh": "金星"
+      },
+      "subtitle": {
+        "en": "Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System.",
+        "zh": "金星是太阳系中离太阳第二近的行星，是太阳系中密度最大的行星。"
+      }
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Earth",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/580px-The_Blue_Marble_%28remastered%29.jpg",
+      "title": {
+        "en": "Earth",
+        "zh": "地球"
+      },
+      "subtitle": {
+        "en": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+        "zh": "地球是太阳系中离太阳第三近的行星，是目前已知唯一有生命的天体。"
+      }
+    }
+  ]
+}

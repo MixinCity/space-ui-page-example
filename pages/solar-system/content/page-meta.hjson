@@ -1,0 +1,25 @@
+{
+  "lang": "en",
+  "favicon": "",
+  "image": null,
+  "author": "$common.user.nickname$",
+  "title": {
+    "en": "List page example",
+    "zh": "列表页示例"
+  },
+  "description": {
+    "en": "This is a list page example based on Space-UI.",
+    "zh": "这是一个基于 Space-UI 的列表页示例"
+  },
+  "keywords": {
+    "en": "list, example, single page, Space-UI",
+    "zh": "列表, 示例, 单页, Space-UI"
+  },
+  "date": {
+    "created": "2024-03-04",
+    "updated": null
+  },
+  "page_url": "",
+  "page_type": "webpage",
+  "site_name": ""
+}

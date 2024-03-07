@@ -1,0 +1,92 @@
+{
+    // space theme - list page
+  "app": "space-ui/v0/apps/basic-page",
+  "user": "$common.user$",
+  "i18n": {
+    "supported": "$content/i18n.supported$",
+    "component": {
+      "name": "csc-lang-switch/default/v1",
+      "props": {
+        "languages": "$content/i18n.names$"
+      }
+    }
+  },
+  "page": {
+    "style": {
+      "url": null,
+      "text": null,
+      "css_vars": {
+        "default": {},
+        "dark": {}
+      }
+    },
+    "meta": "$content/page-meta$",
+    "header_components": [
+      {
+        "name": "csc-header/default/v1",
+        "style": {
+          "url": null,
+          "css_vars": {
+            "default": {
+              "height": "20rem",
+              "bg-image": "$content/page-header.background_image$",
+              "bg-opacity": 0.8
+            },
+            "dark": {}
+          }
+        },
+        "props": {}
+      }
+    ],
+    "main_components": [
+      {
+        "name": "csc-title/default/v1",
+        "props": {
+          "title": "$content/page-meta.title$",
+          "author": "$content/page-meta.author$",
+          "created": "$content/page-meta.date.created$",
+          "updated": "$content/page-meta.date.updated$"
+        }
+      },
+      {
+        "name": "p",
+        "props": {
+          "text": "$content/page-main.introduction$"
+        }
+      },
+      {
+        "name": "h3",
+        "props": {
+          "text": "$content/list-1.title$"
+        }
+      },
+      {
+        "name": "csc-link-card-list/default/v1",
+        "style": {},
+        "props": {
+          "items": "$content/list-1.items$"
+        }
+      },
+      {
+        "name": "h3",
+        "props": {
+          "text": "$content/list-2.title$"
+        }
+      },
+      {
+        "name": "csc-card-list/default/v1",
+        "style": {},
+        "props": {
+          "items": "$content/list-2.items$"
+        }
+      }
+    ],
+    "footer_components": [
+      {
+        "name": "csc-footer/simple/v1",
+        "style": {},
+        "props": "$content/page-footer$"
+      }
+    ]
+  }
+}
