@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://github.com/nodewee/space-ui-page-example",
+    "image": "",
+    "title": {
+      "en": "Space UI Page Example",
+      "zh": "Space UI Page Example",
+    },
+    "subtitle": {
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "url": "/solar-system",
+    "image": "https://cdn.pixabay.com/photo/2023/03/05/21/51/planets-7832276_1280.jpg",
+    "title": {
+      "en": "Solar System",
+      "zh": "太阳系",
+    },
+    "subtitle": {
+      "en": "List of planets in the solar system",
+      "zh": "太阳系行星列表"
+    }
+  }
+]

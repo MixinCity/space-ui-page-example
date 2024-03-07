@@ -1,0 +1,57 @@
+{
+  "nickname": {
+    "en": "Example",
+    "zh": "示例"
+  },
+  "avatar": "https://avatars.githubusercontent.com/u/114018518?v=4",
+  "url": "https://github.com/mixincity/",
+  "domain": "github.com/mixincity",
+  "bio": {
+    "en": "Customize your page freely and easily",
+    "zh": "自由、轻松的定制你的页面"
+  },
+  "contact": [
+    {
+      "name": "email",
+      "addr": "empty"
+    },
+    {
+      "name": "telegram",
+      "addr": "empty"
+    },
+    {
+      "name": "nostr",
+      "addr": "empty"
+    }
+  ],
+  "social": [
+    {
+      "name": "github",
+      "url": "https://github.com/mixincity/"
+    },
+    {
+      "name": "twitter",
+      "url": "#"
+    },
+    {
+      "name": "linkedin",
+      "url": "#"
+    },
+    {
+      "name": "facebook",
+      "url": "#"
+    },
+    {
+      "name": "jike",
+      "url": "jike"
+    },
+    {
+      "name": "youtube",
+      "url": "#"
+    },
+    {
+      "name": "tiktok",
+      "url": "#"
+    }
+  ]
+}

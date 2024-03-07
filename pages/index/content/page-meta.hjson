@@ -1,0 +1,19 @@
+{
+  "lang": "en",
+  "favicon": "",
+  "image": null,
+  "author": "$common.user.nickname$",
+  "title": {
+    "en": "Example of a personal page",
+    "zh": "个人主页示例"
+  },
+  "description": {
+    "en": "This is a personal page example",
+    "zh": "这是一个个人主页示例"
+  },
+  "keywords": {},
+  "date": {},
+  "page_url": "",
+  "page_type": "webpage",
+  "site_name": ""
+}
