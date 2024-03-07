@@ -1,3 +1,6 @@
 **/.DS_Store
-docs/data.json
-docs/index.html
+.env
+**/node_modules
+
+**/.build
+**/public
